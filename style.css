@@ -12,12 +12,13 @@ body {
     margin-top: 16px;
 }
 
-.advanced-container{
+.advanced-container {
     margin-left: 32px;
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .search-area {
     display: flex;
     width: 500px;
@@ -114,7 +115,7 @@ form {
 nav {
     display: flex;
     padding: 6px;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 a {
@@ -130,7 +131,7 @@ a:hover {
 }
 
 .current-page {
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 img {
@@ -153,20 +154,25 @@ img {
 
 .search-fields-container {
     margin-top: 16px;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
-.searchbar-label{
+.searchbar-label {
     min-width: 167px;
     font-size: 13px;
 }
 
-p{
+p {
     margin: 0;
 }
 
-h1{
+h1 {
     color: #f28b82;
     font-size: 20px;
+}
+
+.left,
+.right {
+    display: flex;
 }
